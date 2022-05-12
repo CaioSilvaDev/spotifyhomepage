@@ -1,0 +1,189 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.btn-primary  {
+        background-color: #79f5ad;
+        color: black;
+        text-transform: uppercase; 
+        padding: 10px 50px;
+        border: none;
+        border-radius: 30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        transition: all 500ms ease;
+        cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: rgb(104, 247, 111);
+}
+
+#navbar {
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+.navbar-item {
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.navbar-item:hover{
+    color: rgb(104, 247, 111);
+    cursor: pointer;
+
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+#navbar .navbar-container .logo {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+#navbar .navbar-container ul li {
+    padding: 0 25px;
+}
+#navbar .navbar-container ul li:nth-child(3) {
+    border-right: 1px solid white;
+
+}
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("/img/background.png") center center/cover
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 8rem;
+
+}
+#showcase .showcase-container p {
+    margin: 15px 0 ;
+    font-size: 1.1rem;
+}
+
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 80px 0;
+}
+
+.footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    
+
+}
+ .footer-content .footer-menu {
+    margin: 0 40px;
+    list-style: none;
+}
+.footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+.footer-content .footer-menu .footer-menu-item {
+    margin: 25px 0;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.footer-content .footer-menu .footer-menu-item:hover {
+    color: rgb(104, 247, 111)
+}
+.social {
+    display: flex;
+   
+   
+}
+.social i {
+    margin: 0 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.social i:hover {
+    color: #79f5ad;
+    transition: all 500ms ease;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    color: #919496;
+    font-size: 0.7rem;
+    padding-top: 30px;
+}
+
+.footer-info .footer-info-item {
+    display: flex;
+    list-style: none;
+
+}
+.footer-info .footer-info-item .footer-info-item {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.7rem;
+    cursor: pointer;
+
+}
+
+.footer-info .rights {
+    cursor: pointer;
+}
+.footer-info .rights .country {
+    display: flex;
+    height: 20px;
+    width: auto;
+    justify-content: flex-end;
+    margin-left: 10px;
+    
+}
